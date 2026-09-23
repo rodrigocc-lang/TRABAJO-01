@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Artículos para Mascotas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #23395B;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .seccion-titulo {
+            text-align: center;
+            margin: 30px 0 20px 0;
+            font-size: 22px;
+            color: #000;
+        }
+
+        .contenedor-productos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .producto-card {
+            background-color: white;
+            border: 1px solid #e0e0e0;
+            width: 250px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border-radius: 4px;
+        }
+
+        .producto-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 15px;
+            background-color: #eaeaea;
+        }
+
+        .producto-card h3 {
+            font-size: 16px;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .producto-card .precio {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .btn-comprar {
+            background-color: #347ebb;
+            color: white;
+            border: none;
+            width: 100%;
+            padding: 10px 0;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            border-radius: 3px;
+        }
+
+        .btn-comprar:hover {
+            background-color: #286394;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Artículos para Mascotas
+    </header>
+
+    <main>
+        <h2 class="seccion-titulo">Productos</h2>
+
+        <div class="contenedor-productos">
+            <div class="producto-card">
+                <img src="camaperro.jpg" alt="Cama para Perro">
+                <h3>Cama para Perro</h3>
+                <p class="precio">S/ 85.00</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+
+            <div class="producto-card">
+                <img src="juguetesgato.jpg" alt="Juguetes para Gato">
+                <h3>Juguetes para Gato</h3>
+                <p class="precio">S/ 35.00</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+
+            <div class="producto-card">
+                <img src="premiun.png" alt="Alimento Premium">
+                <h3>Alimento Premium</h3>
+                <p class="precio">S/ 110.00</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+
+            <div class="producto-card">
+                <img src="rascador.jpg" alt="Rascador para Gato">
+                <h3>Rascador para Gato</h3>
+                <p class="precio">S/ 125.00</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+
+            <div class="producto-card">
+                <img src="collar.jpg" alt="Collar para Perro">
+                <h3>Collar para Perro</h3>
+                <p class="precio">S/ 25.00</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+
+            <div class="producto-card">
+                <img src="arena.jpg" alt="Arena para Gato">
+                <h3>Arena para Gato</h3>
+                <p class="precio">S/ 45.00</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+
+            <div class="producto-card">
+                <img src="plato.jpg" alt="Plato para Mascota">
+                <h3>Plato para Mascota</h3>
+                <p class="precio">S/ 30.00</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+
+            <div class="producto-card">
+                <img src="mordedor.jpg" alt="Juguete Mordedor">
+                <h3>Juguete Mordedor</h3>
+                <p class="precio">S/ 35.00</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>
